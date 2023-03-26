@@ -46,7 +46,7 @@ double exp_filter(double z) {
 
 void buff_init() {
     int i;
-    for(i=0;i<4;i++)
+    for(i=0;i<BUF_LEN;i++)
         buff.interval[i] = 0;
     buff.wp = buff.count = 0;
 }
