@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define DEF_TEMPO 120
 #define TEMPO_JITTER 0.1
 
 #define BUF_LEN 4
